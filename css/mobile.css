@@ -38,8 +38,6 @@ hmtl {
   height: 120vh;
   justify-content: center;
   align-items: center;
-
-  background-color: rgb(243, 214, 214);
 }
 
 .container-sedans {
@@ -60,20 +58,18 @@ hmtl {
   color: var(--Very-light-gray);
   font-family: var(--big-shoulders);
   padding: 10px 0 20px 20px;
-  
 }
 
-.container-card p{
+.container-card p {
   padding: 0px 20px 20px 20px;
   color: var(--Transparent-white);
   font-size: 0.6rem;
   font-family: var(--lexend-deca);
   font-weight: normal;
   line-height: 1.2rem;
-
 }
 
-.container-card .btn{
+.container-card .btn {
   width: 110px;
   margin-left: 20px;
   padding: 10px;
@@ -81,15 +77,11 @@ hmtl {
   border: none;
   font-weight: bold;
   font-size: 0.6rem;
-  
-
 }
 
-#btn-sedans{
+#btn-sedans {
   color: var(--Bright-orange);
 }
-
-
 
 .container-suvs {
   background-color: var(--Dark-cyan);
@@ -97,7 +89,7 @@ hmtl {
   height: 300px;
 }
 
-#btn-suvs{
+#btn-suvs {
   color: var(--Dark-cyan);
 }
 
@@ -105,13 +97,11 @@ hmtl {
   background-color: var(--Very-dark-cyan);
   width: 200px;
   height: 300px;
-  border-radius:  0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
 }
 
-#btn-luxury{
+#btn-luxury {
   color: var(--Very-dark-cyan);
-  
-  
 }
 
 .attribution {
