@@ -1,5 +1,14 @@
-.container-card{
+.container-card {
+  height: 90vh;
   display: flex;
   flex-direction: row;
-  background-color: aqua;
+  
+}
+
+.container-sedans {
+  border-radius: 10px 0px 0 10px;
+}
+
+.container-luxury {
+  border-radius: 0 10px 10px 0;
 }
