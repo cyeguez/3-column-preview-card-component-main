@@ -35,14 +35,18 @@ hmtl {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 130vh;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
 }
 
-.container-sedans {
+.container-product  {
   width: 200px;
   height: 300px;
+   
+}
+
+.sedans{
   background-color: var(--Bright-orange);
   border-radius: 10px 10px 0 0;
 }
@@ -83,20 +87,17 @@ hmtl {
   color: var(--Bright-orange);
 }
 
-.container-suvs {
+.suvs {
   background-color: var(--Dark-cyan);
-  width: 200px;
-  height: 300px;
+  
 }
 
 #btn-suvs {
   color: var(--Dark-cyan);
 }
 
-.container-luxury {
+.luxury {
   background-color: var(--Very-dark-cyan);
-  width: 200px;
-  height: 300px;
   border-radius: 0 0 10px 10px;
 }
 
@@ -107,7 +108,7 @@ hmtl {
 
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.1rem;
   text-align: center;
 }
 .attribution a {
